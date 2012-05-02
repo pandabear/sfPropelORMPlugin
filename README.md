@@ -1,8 +1,6 @@
 sfPropelORMPlugin v. pandabear
 =================
 
-[![Build Status](https://secure.travis-ci.org/propelorm/sfPropelORMPlugin.png?branch=master)](http://travis-ci.org/propelorm/sfPropelORMPlugin)
-
 Replaces symfony's core Propel plugin by the latest version of Propel, in branch 1.6.
 
 ## Installation
