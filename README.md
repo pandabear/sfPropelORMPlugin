@@ -1,11 +1,11 @@
-sfPropelORMPlugin
+sfPropelORMPlugin v. pandabear
 =================
 
 [![Build Status](https://secure.travis-ci.org/propelorm/sfPropelORMPlugin.png?branch=master)](http://travis-ci.org/propelorm/sfPropelORMPlugin)
 
 Replaces symfony's core Propel plugin by the latest version of Propel, in branch 1.6.
 
-## Installation
+## Installation
 
 ### The Git way
 
@@ -28,10 +28,14 @@ Install the plugin via the subversion repository:
 
     svn checkout http://svn.github.com/propelorm/sfPropelORMPlugin.git plugins/sfPropelORMPlugin
 
-Install `Phing` and `Propel`:
+Install `Propel`:
 
-    svn checkout http://phing.mirror.svn.symfony-project.com/tags/2.3.3/classes/phing lib/vendor/phing
     svn checkout http://svn.github.com/propelorm/Propel.git lib/vendor/propel
+
+Install `Phing`:
+    Download Phing 2.4.12 from http://www.phing.info. 
+    Extract `classes` contents to lib/vendor/phing.
+    Also extract `etc` contents to lib/vendor/phing/etc.
 
 ### Final step
 
