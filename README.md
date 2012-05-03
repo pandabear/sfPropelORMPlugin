@@ -10,17 +10,16 @@ current sfPropelORMPlugin was not compatible with Phing 2.4.12.
 Please refer to propelorm / sfPropelORMPlugin at https://github.com/propelorm/sfPropelORMPlugin for installation.
 This section contains guidance to get Phing 2.4.12 working with sfPropelORMPlugin
 
-### The SVN way v. pandabear
-
-Install the plugin via the subversion repository:
-
-    svn checkout http://svn.github.com/propelorm/sfPropelORMPlugin.git plugins/sfPropelORMPlugin
+Install the plugin through repository.
 
 Install `Propel`:
 
     svn checkout http://svn.github.com/propelorm/Propel.git lib/vendor/propel
 
 Install `Phing`:
-    Download Phing 2.4.12 from http://www.phing.info. 
-    Extract `classes` contents to lib/vendor/phing.
-    Also extract `etc` contents to lib/vendor/phing/etc.
+
+      Download Phing 2.4.12 from http://www.phing.info. 
+      
+      Extract `classes` contents to lib/vendor/phing.
+      
+      Also extract `etc` contents to lib/vendor/phing/etc.
